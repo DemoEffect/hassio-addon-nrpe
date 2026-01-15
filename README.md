@@ -1,6 +1,6 @@
 # hassio-addon-nrpe
 
-Nagios Nrpe Server Add-On
+Nagios Nrpe Server Add-On - custom checks
 
 ## Installation
 
