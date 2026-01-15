@@ -9,9 +9,9 @@ arch:
   - armv7
 init: false
 ports: 
-  5667/tcp: 5666
+  5666/tcp: 5666
 ports_description: 
-  5667/tcp: Default nrpe port
+  5666/tcp: Default nrpe port
 map: 
   - config:rw
 startup: services
