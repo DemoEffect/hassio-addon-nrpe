@@ -1,17 +1,17 @@
 name: Nagios Nrpe Server
-version: 2024.11.8-9
+version: 2025.01.15-1
 slug: nagios-nrpe
 description: Nrpe with plugins 
-url: https://github.com/miloszarsky/hassio-addon-nrpe
+url: https://github.com/DemoEffect/hassio-addon-nrpe
 arch: 
   - amd64
   - aarch64
   - armv7
 init: false
 ports: 
-  5666/tcp: 5666
+  5667/tcp: 5666
 ports_description: 
-  5666/tcp: Default nrpe port
+  5667/tcp: Default nrpe port
 map: 
   - config:rw
 startup: services
